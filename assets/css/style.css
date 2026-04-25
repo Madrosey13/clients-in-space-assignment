@@ -1,0 +1,111 @@
+/* HTML SIZING */
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+  }
+
+
+body{
+  margin:auto;
+}
+
+/* HEADER */
+
+header.primary{
+  background-image: url("https://images.unsplash.com/photo-1610296669228-602fa827fc1f?q=80&w=1075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  text-align:center;
+  width:100%;
+  min-height: 100vh;
+}
+
+
+header.primary h1{
+  font-size:2.4rem;
+  color:aliceblue;
+}
+header.primary h2{
+  color:aliceblue;
+}
+
+.nav2{
+background-color: #aca694;
+justify-content: space-between;
+align-items: center;
+} 
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+  padding-right: 75px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header.primary nav ul li a{
+  border-radius:15px;
+  color:aliceblue;
+  display:block;
+  padding:15px 15px 15px 15px;
+  text-align:center;
+  transition:0.3s;
+  text-decoration:none;
+  font-size:0.9rem;
+}
+
+header.primary nav ul li a:hover{
+  background-color:#21301e;
+  color:aliceblue;
+}
+
+header.primary nav ul li a.active{
+  background-color:#21301e;
+}
+
+/* OTHER STUFF */
+section.careers div div {
+  background-color:red;
+  border-radius:15px;
+}
+
+section.careers div div div p{
+  text-align:left;
+}
+
+section.careers div div div img{
+  border-radius:15px;
+}
+
+/* FOOTER */
+#colophon{
+  background-color:#aca694;
+  color:aliceblue;
+  width:100%;
+  padding:20px;
+}
+
+#colophon p{
+  text-align:center;
+  font-size:0.6rem;
+}
+
+
+/* UTILITY CLASSES */
+
+
+/* MEDIA QUERIES */
