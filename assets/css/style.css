@@ -36,15 +36,26 @@ header #header-title{
 }
 
 header.primary h1{
-  font-size:2.4rem;
+  font-size:5rem;
   color:aliceblue;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  text-shadow: 6px 5px 3px rgba(0,0,0,0.3);
 }
+
 header.primary h2{
   color:aliceblue;
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  text-shadow: 6px 5px 3px rgba(0,0,0,0.3);
 }
 
 .nav2{
 background-color: #aca694;
+display: flex;
 justify-content: space-between;
 align-items: center;
 } 
@@ -59,7 +70,7 @@ header.primary nav ul{
 
 header.primary nav ul li{
   list-style-type:none;
-  padding-right: 75px;
+  padding-right: 60px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
