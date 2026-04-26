@@ -7,10 +7,10 @@ html{
     box-sizing:inherit;
 }
 
-img{
+/*  img{
     max-width:100%;
     height:auto;
-  }
+  } */
 
 
 body{
@@ -54,7 +54,7 @@ header.primary h2{
 }
 
 .nav2{
-background-color: #aca694;
+background-color: #273469;
 justify-content: space-between;
 align-items: center;
 } 
@@ -86,12 +86,13 @@ header.primary nav ul li a{
 }
 
 header.primary nav ul li a:hover{
-  background-color:#21301e;
-  color:aliceblue;
+  background-color:#E4D9FF;
+  color:#273469;
 }
 
 header.primary nav ul li a.active{
-  background-color:#21301e;
+  background-color:#E4D9FF;
+  color:#273469;
 }
 
 section.secondary{
@@ -100,7 +101,7 @@ section.secondary{
 
 /* OTHER STUFF */
 section.careers div div {
-  background-color:red;
+  background-color:#E4D9FF;
   border-radius:15px;
 }
 
@@ -136,9 +137,21 @@ h5.card-title {
   font-weight: 600;
 }
 
+/*  MYTHS  */
+section.secondary table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+section.secondary th, section.secondary td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
 /* FOOTER */
 #colophon{
-  background-color:#aca694;
+  background-color:#273469;
   color:aliceblue;
   width:100%;
   padding:20px;
@@ -148,6 +161,12 @@ h5.card-title {
   text-align:center;
   font-size:0.6rem;
 }
+
+/*  CAREERS  */
+section.careers{
+  padding: 20px;
+}
+
 
 
 /* UTILITY CLASSES */
